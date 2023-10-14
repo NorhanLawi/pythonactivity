@@ -1,0 +1,10 @@
+grades = []
+
+ for i in range(6):
+grade = float(input(f"Enter frade for subject{i+1}:"))
+grade.append(grade)
+
+ if all(grade >= 85 for grade in grades):
+prinnt("Pass")
+else:
+print("Fail")
